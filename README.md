@@ -12,6 +12,6 @@ The content of this repository is a contribution intended to showcase the capabi
 Instead of writing a complex application full of algorithms and many hours of programming, we will demonstrate that by using request engineering, we can achieve the same results or even better ones.
 To make this possible, we will make elaborate requests that we will send to the GPT-4 and Dalle3 models without the need for any fine-tuning or RAG techniques.
 This exercise allows us to explore the model's capabilities while Microsoft Azure's cloud provides us with the security of being able to work with our data in a private instance where our data is solely ours and isolated from other users.
-This development is not a professional solution as it lacks many important details such as LLMOps, for which I recommend using [PromptFlow][https://github.com/microsoft/promptflow], for example.
+This development is not a professional solution as it lacks many important details such as LLMOps, for which I recommend using [PromptFlow](https://github.com/microsoft/promptflow), for example.
 Of course, you are free to use this code to create tweets for your Sessionize events, to play around, to learn, or for whatever purpose you wish. The only thing I ask in return is that you cite the original source when you do so and propose your changes if you deem it necessary.
 All contributions are welcome!
