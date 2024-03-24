@@ -93,6 +93,41 @@ Additionally, you can configure the file structure to your liking by modifying t
 ## Creating and scheduling messages
 For a quick execution, you can try running the ***CreateTweets.py*** program directly from your .bash console, Python interpreter, or Visual Studio Code debugger.
 
+```shell
+./CreateTweets.py
+```
+
+***Note:*** The script checks for the existence of output files, and if it detects that they exist, they are not regenerated. Therefore, if you want to create the files again (the results will be similar but not identical), you must delete ***SpeakersHandle.md***, ***Tweets.csv***, and ***Scheduletweets.csv***
+
+- 📁 Data/
+    - 📂 Output/
+        - 📄 ~~Scheduletweets.csv~~
+        - 📄 ~~SpeakersHandle.md~~
+        - 📄 ~~Tweets.csv~~
+
+
+When the file finishes executing, these same files should be created, and in them you will find the different results:
+
+- 📄**SpeakerHandle.md** 
+    - It contains a table with the Twitter handles of all the speakers.
+- 📄**Tweets.csv** 
+    - It contains a CSV table with all the generated tweet messages.
+- 📄**Scheduletweets.csv** 
+    - It contains a CSV table with all the messages scheduled for orderly publication.
+
+## BYOD (Bringing your own data)
+You can try with your own data by exporting the data from your Sessionize into a CSV file and then deleting the columns that are not used.
+
+You should consider that LLM models have a token limit that can be used in each completion, so it cannot process sessions unlimitedly. For this project, we recommend that you divide your session file into 15 or 20 records each, as you can see in this provided example.
+
+- 📁 Data/
+    - 📂 Input/
+        - 📄 SessionsTable_01.csv   
+            - File downloaded from Sessionize with the records of the first 20 sessions
+        - 📄 SessionsTable_02.csv
+            - File downloaded from Sessionize with the following sessions
+        - 📄 SpeakersTable.csv
+            - File downloaded from Sessionize with the names of the speakers
 
 ## Disclaimer
 The content of this repository is a contribution intended to showcase the capabilities of large language models (LLMs) when used as pieces of code in software solutions. 
