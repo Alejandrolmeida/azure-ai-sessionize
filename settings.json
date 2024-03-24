@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "speaker_list_path": "Data/Input/SpeakersTable.csv",
+        "sessions_table_01_path": "Data/Input/SessionsTable_01.csv",
+        "sessions_table_02_path": "Data/Input/SessionsTable_02.csv",
+        "handle_table_path": "Data/Output/SpeakersHandle.md",
+        "tweets_csv_path": "Data/Output/Tweets.csv",
+        "schedule_tweets_path": "Data/Output/Scheduletweets.csv",
+        "imagedescription_table_path": "Data/Output/ImageDescriptionTable.csv",
+        "pictures_path": "Data/Output/Images"
+    },
+    "metaprompt": {
+        "create_handle_table_path": "Data/Prompt/CreateHandleTable.txt",
+        "create_tweets_path": "Data/Prompt/CreateTweets.txt",
+        "create_schedule_tweets_path": "Data/Prompt/ScheduleTweets.txt",
+        "create_imagedescription_path": "Data/Prompt/CreateImageDescription.txt"
+    }
+}
