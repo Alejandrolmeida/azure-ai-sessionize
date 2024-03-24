@@ -13,13 +13,18 @@ def load_paths():
     with open(os.path.join(script_dir, 'settings.json'), 'r') as f:
         paths = json.load(f)
 
+    # Add script_dir prefix to all paths
+    for category in paths:
+        for key in paths[category]:
+            paths[category][key] = os.path.join(script_dir, paths[category][key])
+
     # Definition of the metadata file paths
-    tweets_csv_path = os.path.expanduser(paths['metadata']['tweets_csv_path'])
-    imagedescription_table_path = os.path.expanduser(paths['metadata']['imagedescription_table_path'])
-    pictures_path = os.path.expanduser(paths['metadata']['pictures_path'])
+    tweets_csv_path = paths['metadata']['tweets_csv_path']
+    imagedescription_table_path = paths['metadata']['imagedescription_table_path']
+    pictures_path = paths['metadata']['pictures_path']
 
     # Definition of the metaprompt file paths
-    create_imagedescription_path = os.path.expanduser(paths['metaprompt']['create_imagedescription_path'])
+    create_imagedescription_path = paths['metaprompt']['create_imagedescription_path']
 
     return create_imagedescription_path, tweets_csv_path, imagedescription_table_path, pictures_path
 
