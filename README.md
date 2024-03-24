@@ -48,7 +48,7 @@ az cognitiveservices account keys list \
 ```
 
 ## Deploy GPT-4 model
-To deploy a model, use the az cognitiveservices account deployment create command. In the following example, you deploy an instance of the gpt-4 model and give it the name gpt-4. When you try the example, update the code to use your values for the resource group and resource. You don't need to change the model-version, model-format or sku-capacity, and sku-name values.
+To deploy a model, use the az cognitiveservices account deployment create command. In the following example, you deploy an instance of the **gpt-4** model and give it the name gpt-4. When you try the example, update the code to use your values for the resource group and resource. You don't need to change the model-version, model-format or sku-capacity, and sku-name values.
 
 ```shell
 az cognitiveservices account deployment create \
@@ -63,7 +63,7 @@ az cognitiveservices account deployment create \
 ```
 
 ## Configurations 
-You need to rename the .env.example file to .env and fill in the values of the variables with your own values.
+You need to rename the ***.env.example*** file to ***.env*** and fill in the values of the variables with your own values.
 
 ```shell
 AZURE_OPENAI_API_KEY="<your-api-key>"
@@ -72,8 +72,8 @@ AZURE_OPENAI_ENDPOINT="https://<your-instance-name>.openai.azure.com/"
 AZURE_OPENAI_VERSION="2024-02-15-preview"
 ```
 
-### Folders 
-Additionally, you can configure the file structure to your liking by modifying the paths in the settings.json file. Here is the current file path:
+### Data folder 
+Additionally, you can configure the file structure to your liking by modifying the paths in the ***settings.json*** file. Here is the current file path:
 
 - 📁 Data/
     - 📂 Input/
@@ -89,6 +89,10 @@ Additionally, you can configure the file structure to your liking by modifying t
         - 📄 CreateImageDescription.txt
         - 📄 CreateTweets.txt
         - 📄 ScheduleTweets.txt
+
+## Creating and scheduling messages
+For a quick execution, you can try running the ***CreateTweets.py*** program directly from your .bash console, Python interpreter, or Visual Studio Code debugger.
+
 
 ## Disclaimer
 The content of this repository is a contribution intended to showcase the capabilities of large language models (LLMs) when used as pieces of code in software solutions. 
