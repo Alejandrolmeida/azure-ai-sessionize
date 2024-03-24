@@ -31,7 +31,7 @@
 | David Carrasco | @heroescert |
 | Jorge Perona Puro | @JrgPerona |
 | Clairo Dorneles | @clairodorneles |
-| Diego Zapico | @dzapic0 |
+| Diego Zapico  | @dzapic0 |
 | Alejandro Garcia Miravet | @alexmiravet |
 | Ivan Arribas | @ivan_arribas |
 | Rodrigo Liberoff | @rliberoff |
