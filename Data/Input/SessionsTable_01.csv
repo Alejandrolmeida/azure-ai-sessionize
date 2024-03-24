@@ -1,0 +1,58 @@
+Numero;Description;Speakers
+1;"Cuando se habla de tecnolog¡as de bajo c¢digo, Microsoft pone a disposici¢n de las organizaciones la Power Platform como herramienta para el desarrollo r pido de soluciones empresariales.
+
+Pero, ¨qu‚ hay realmente detr s de todo esto? Como habr s adivinado, ­todo se ejecuta en Azure! 
+
+Esto permite una integraci¢n perfecta entre los componentes de Power Platform y los servicios de Azure. Veremos como ejemplo, la integraci¢n de API Management y bases de datos Azure SQL.
+
+Acomp ¤ame a descubrir esta fusi¢n y todas las posibilidades que nos ofrecen estas dos plataformas.";Eickhel Mendoza, David Rodriguez
+2;"En esta sesi¢n aprender s como integrar modelos LLM en tu aplicaci¢n .NET, utilizando open-source Semantic Kernel SDK. Sin ser un experto en ""Generative AI"", Semantic Kernel te permite crear Plugins, crear funciones sem nticas para trabajar m s r pido a trav‚s de plantillas de prompts, y dotar de contexto y tus datos a LLM a trav‚s de la creaci¢n de memorias. No te pierdas esta sesi¢n para descubrir nuestros consejos a la hora de construir tu aplicaci¢n con ""Generative AI"" con Semantic Kernel. ";Luis Ma¤ez, Olga Mart¡
+3;Mostrar‚ al asistente 15 o 20 procesos de hacking a distintos servicios de Azure;Joaquin Molina
+4;¨Quieres saber que es Confidential Computing? En esta sesi¢n os desvelo de que se trata acompa¤ado con unos ejemplos pr cticos en Azure. Bienvenidos a la nueva era de la seguridad cloud.;Jose Maria Flores Zazo
+5;en esta charla vamos a hablar de ¨Que es Azure Stack HCI? beneficios, uso  implementaci¢n gestion y monitoreo;David Rivera Fernandez
+6;"En esta charla voy a explicar qu‚ hay que tener en cuenta cuando necesitas montar desde el punto de vista DevOps, el ciclo de vida de Azure Logic App en un Entorno private dentro de azure, donde se consumir n recursos de forma privada.
+
+Azure DevOps -> logic App repositorio -> Azure Pipelines -> Deploy Infra [env] -> deploy Logic App [env] -> Promote Logic to Preprod -> to Prod.
+
+Desde un punto de vista donde hay equipos que mantienen PROD, pero no tienen conocimientos de avanzados devops, montar este setup y mostrarles que haciendo un commit pueden promocionar ese cambio hecho en DEV, a Producci¢n sin tener que entrar en Producci¢n para modificar c¢digo.";Aldo de Feo
+7;En este 2024 veremos como la explicabilidad, la autorregulaci¢n y la ‚tica en la generaci¢n de contenidos sint‚ticos cobra una especial importancia. En esta charla revisaremos los principales mecanismos de convivencia entre la normativa, los valores de la sociedad y las alucinaciones de las IAs generativas.;David Fern ndez de Frutos, David Carrasco
+8;¨Alguna vez te has enfrentado a un informe con datos que no entiendes? ¨Tus informes incluyen m‚tricas que tus usuarios no saben que significan? Descubre como dar contexto a tus datos y hacerlos m s entendibles a los usuarios de tus informes de Business Intelligence gracias al nuevo servicio de Azure Open AI.;Ivan Arribas
+9;"Balanceo Multiregion ""LZ"" mediante la nueva solucion ""Azure cross-region Load Balancer""";Mario Cabrero
+10;Sesi¢n centrada en Azure Databricks y su integracion con Power BI para sacar el maximo partido a tus datos.;Julio Granados
+11;"Seguramente has trabajado con Docker y te has encontrado con la necesidad de ejecutar m s de un container a la vez y has usado docker-compose. Tal vez hayas trabajado con Kubernetes si tu sistema es algo m s complicado y tiene muchos servicios, configuraciones, y dem s. Todo esto est  muy bien pero plantea otros desaf¡os, por ejemplo, c¢mo gestionar la cantidad de yamls de deployment, services, configmaps, ingress, etc. de un sistema m s o menos grande. M s a£n si necesitamos cambiar alg£n par metro entre entornos.
+Para esto existe Helm, que permite empaquetar un sistema con todos sus objetos de Kubernetes en un £nico objeto, y adem s gestionar par metros en tiempo de deploy, como versiones de im genes, connection string. etc.
+En esta charla veremos qu‚ es Helm, c¢mo puede ayudarnos para instalar aplicaciones de terceros muy f cilmente como un todo, y c¢mo puede ayudarnos con nuestras aplicaciones a gestionar gran parte de la complejidad de los manifest de Kubernetes.";Leonardo Micheloni
+12;"Los usuarios avanzados pueden desarrollar sus aplicaciones r pidamente, con menos c¢digo y menor coste, gracias a las bondades de Power Platform.  En escenarios m s complejos, tenemos la posibilidad de a¤adir m s funcionalidad y aprovechar toda la potencia que nos ofrece Azure.
+
+En esta sesi¢n hablaremos de algunas posibilidades que nos brinda Azure para escalar y extender nuestras apps utilizando los conectores para Azure nativos o crear los nuestros personalizados y aprovechar toda la potencia que nos brinda Azure utilizando servicios como Azure API Management o Azure functions para escalar, extender e integrar Power Platform con otras aplicaciones l¡nea de negocio.";Carlos Javier Sosa Marquina
+13;En esta sesi¢n, nos adentraremos en Azure Container Apps, una plataforma serverless que permite ejecutar aplicaciones en contenedores con menos infraestructura y a menor costo. Exploraremos c¢mo Azure Container Apps facilita la implementaci¢n de puntos de conexi¢n de API, el alojamiento de trabajos de procesamiento en segundo plano, y la ejecuci¢n de microservicios. Adem s, discutiremos c¢mo esta plataforma puede escalar din micamente las aplicaciones en funci¢n del tr fico HTTP, el procesamiento controlado por eventos, y la carga de CPU o de memoria2.;Santiago Porras Rodr¡guez, Sergio Parra Guerra
+14;Learn how Security Copilot is helping security teams solve threats faster and more accurately using the power of AI.;Clairo Dorneles, Eduardo Kieling
+15;"La Inteligencia Artificial generativa ha captado la atenci¢n mundial con la aparici¢n de LLM's, pero ¨sab¡as que sus aplicaciones van mucho m s all ? 
+
+Durante esta sesi¢n, haremos una breve introducci¢n al uso de t‚cnicas como NERF o Gaussian splatting con las que podemos renderizar escenas 3D a partir de fotograf¡as o v¡deos.  Como ejemplo, usaremos un conjunto de fotograf¡as del  mbito industrial. Demostraremos que con tan solo un conjunto de im genes, podemos renderizar una escena 3D de alta calidad.
+
+Debido a la necesidad de GPU para realizar el entrenamiento de nuestros modelos de renderizado, nos apoyaremos en Azure Machine Learning, donde mostraremos como se ha definido un pipeline basado en componentes que permite lanzar m£ltiples entrenamientos en paralelo y escalar seg£n las necesidades que tengamos gracias al cl£ster de computaci¢n sobre el que se ejecuta.
+
+Por £ltimo, veremos como podemos interactuar con esta escena 3D,  aplicando modelos como SAM (Segment Anything) para segmentar y clusterizar y posteriormente exportar los distintos objetos que aparecen en la escena.
+
+";Rodrigo Cabello
+16;"Azure API Management (APIM) es seguramente uno de esos productos m s sencillos de implementar en tu organizaci¢n, que m s valor te aporta para la gesti¢n de los backends y seguridad y que seguramente mucha gente a£n no est  implementando.
+
+¨En qu‚ consiste?¨En qu‚ me ayuda?¨C¢mo empiezo? Te lo ense¤o en 45 minutos.";Diego Zapico
+17;La responsabilidad no es s¢lo un concepto sino un pilar de todo proyecto en IA. Con advenimiento de tecnolog¡as disruptivas y creativas es imprescindible contar con estas perspectiva. En esta sesi¢n podremos ver como los servicios de Azure disponen de una base s¢lida de principios responsables, servicios  y para cumplir con esa misi¢n. No todo va a ser efecto Wow ??. Bueno si,pero con responsabilidad as¡ que  mostraremos como aplicar con un intento de efecto wow??;Javier Armesto
+18;En esta sesi¢n mostrar‚ c¢mo crear im genes cerebrales artificialmente sustituyendo a las obtenidas mediante resonancias magn‚ticas, y c¢mo se ha desarrollado este proyecto desde un inicio. Demo inclu¡da. ;Javier Menendez Pallo
+19;El enfoque de nube adaptable unifica equipos aislados, sitios distribuidos y sistemas en expansi¢n en un £nico modelo de operaciones, seguridad, aplicaci¢n y datos, lo que permite a las organizaciones aprovechar las tecnolog¡as nativas de la nube y de IA para trabajar simult neamente en entornos h¡bridos, multinube, perimetrales e IoT. Para ello Microsoft Azure cuenta con  herramientas como Azure ARC, Defender for Cloud, Azure Monitos o Azure Policy con la que conseguir una nube adaptable.;Juan Jose Diaz Antu¤a
+20;GPT-4 Turbo for Visi¢n, ahora en versi¢n preliminar p£blica en Azure OpenAI, representa un avance significativo en los modelos multimodales de gran escala (LMM). Este desarrollo de OpenAI integra procesamiento del lenguaje natural con capacidades de an lisis visual, permitiendo que el modelo responda preguntas textuales basadas en contenido de im genes. A trav‚s de la colaboraci¢n con Azure AI Vision, se enriquece la interpretaci¢n de im genes, facilitando una comprensi¢n m s profunda y aplicaciones m s amplias en campos que requieren an lisis visual detallado y contextual.;Pablo Angel Piovano
+21;"D¡a de tormenta, son las 9 de la noche y el Real Madrid est  jugando. Quieres irte a casa porque ya est s tarde. Sin embargo, tu compa¤ero ha cometido un error con Terraform; borr¢ un archivo y elimin¢ por completo un storage account de producci¢n. ¨Qu‚ podemos hacer?
+
+En esta sesi¢n, proporcionaremos consejos para garantizar que tus recursos de Azure est‚n respaldados correctamente y para ayudarte a protegerte de esos compa¤eros ""manazas"".";Sergio Navarro Pino, Alejandro Garcia Miravet
+22;Join this session to get a short comparative look at Ansible, Bicep, and Terraform, shedding light on why we took unconventional approach to use Ansible when doing Azure automation in our project. After some time spent with this tool I am ready to share several use-cases it best serves, but also its limitations (spoiler: azcollection did not work for us and we had to develop Python modules). Finally, I will give a live demo featuring Ansible for IaC automation, sharing examples of YAML-files describing environment being deployed. Join me and let's explore together the untapped potential of Ansible!;Yury Vaskow
+23;"¨Conoces CosmosDb, el servicio de base de datos super flexible e hiper escalable en Azure?  
+
+En esta sesi¢n haremos un peque¤o recorrido por las funcionalidades m s relevantes de este servicio, y tambi‚n me gustar¡a compartir algunas cosillas que he aprendido despu‚s de un par de a¤os us ndolo de forma ""Intensiva"" 
+
+¨Te apuntas? ";Roberto Sanz
+24;Que poco nos gusta documentar. Ahora que ya tenemos controlado como trabajar con Azure DevOps en nuestros desarrollos de Power BI veremos como OpenIA nos va a ayudar a documentarlos! ;Mar Lizana, Adria Belmonte
+25;"En esta sesi¢n veremos como podemos desarrollar soluciones chat profesionales, personalizadas con tus datos y altamente escalables, no solamente a nivel de infraestructura sino tambi‚n de dise¤o de soluci¢n, arquitectura en Azure y t‚cnicas DevOps que aseguren la calidad despu‚s de llevarlo a en producci¢n. 
+
+Aprender s como dise¤ar flujos RAG y otros mas complejos con Visual Studio Code y PromptFlow, tooling con python, indexaci¢n en Azure Search, crear embeddings y hacer evaluaciones masivas con Rating especifico de LLMs (coherence, fluency, groundedness y relevance). ";Alejandro Almeida, David Oliva

@@ -1,0 +1,55 @@
+Numero;Description;Speakers
+26;"Dentro del ecosistema Power BI y los nuevas arquitecturas de Datos en la nube nos encontramos con un abanico de componentes tan grande como espectacular: Power BI, Power BI Dataflows, Power BI Datamarts, Cloud Data warehouse como Databricks o Fabricnow y las nuevas arquitecturas avanzadas de Lakehouse. 
+¨C¢mo encajan todas estas piezas? ¨Las necesito realmente? ¨En qu‚ casos s¡ y en cuales no?
+Entender las razones por las cuales un componente se convierte en clave en la evoluci¢n de nuestras arquitecturas es fundamental para que nuestra soluci¢n sea un ‚xito, t‚cnico y de negocio.
+
+En esta sesi¢n realizaremos un paso de 0 hasta el Lakehouse y veremos como se transforma toda nuestra soluci¢n.
+";Ruben Pertusa Lopez, Miguel Egea G¢mez
+27;"Con m s de un a¤o trabajando a tope con las inteligencias artificiales generativas, empiezan a establecerse los primeros patrones formales de arquitecturas para construir soluciones complejas y escalables con este tipo de tecnolog¡as.
+
+La arquitectura de Micro-Agentes es una de estas propuestas. Basada en el paradigma de los microservicios, lleva los patrones de ‚sta al mundo de los agentes de inteligencia artificial, abstracciones modulares que realizan acciones espec¡ficas como respuesta a las entradas del usuario, y que pueden comunicarse f cilmente con otros agentes. B sicamente, es construir IA como servicios.
+
+Para construir esta arquitectura nos apoyaremos en diversas herramientas, como el Azure OpenAI SDK, .NET Aspire y las £ltimas experimentaciones dentro Semantic Kernel.";Rodrigo Liberoff, Borja Piris de Castro
+28;"Durante la sesi¢n, convertiremos a asistentes de level 300 a 400 :). Les formaremos en todo lo relacionado con toda la variedad y tipos de identidades existentes en las empresa, as¡ como los ataques y protecci¢n que tenemos. 
+
+Veremos  por qu‚ cuesta que se considere a Window Hello un MFA y por qu‚ si lo es, como conseguir un escenario passworless 360, como funcionan los ataques MFA cookie theft y qu‚ reglas en el plataformado del tenant no nos pueden falta. 
+
+#LoginAdaptativo #Passwordless360 #fido2 #Hello";Miguel Hern ndez
+29;"En esta fascinante sesi¢n del Global Azure, exploraremos el mundo del desarrollo de aplicaciones nativas en la nube utilizando .NET 8 y el revolucionario marco .NET Aspire. La sesi¢n ""Cloud Native App Development with .NET Aspire in Azure"" est  dise¤ada para proporcionar a los desarrolladores una comprensi¢n s¢lida de c¢mo crear aplicaciones escalables, resilientes y de alto rendimiento en la nube utilizando las £ltimas tecnolog¡as y pr cticas de Microsoft.
+
+Al final de esta sesi¢n, los asistentes tendr n un conocimiento s¢lido y una comprensi¢n profunda de c¢mo desarrollar aplicaciones nativas en la nube utilizando .NET 8 y .NET Aspire. Adem s, aprender n c¢mo implementar y gestionar estas aplicaciones en Azure a trav‚s de Azure Container Apps, lo que les permitir  aprovechar al m ximo los servicios y herramientas disponibles en la plataforma de Microsoft.";Emiliano Montesdeoca
+30;"On this session we will jump in into the future of AI, Agents or, also called Agentic systems. We will understand the concepts through raw, pure, practice - read hands on here - and I'll show you code that makes sense out of the nonsense and let you in awe of what is possible right here and right now. Shall we? ;)";Jose Luis Latorre Millas
+31;Con Azure DevOps desplegaremos Spatial Analytics en un dispositivo IoT conectado a una camara en una Rasperri PI gestionado por Azure ARC y contaremos cuantas personas hay en la sala. ;Jorge Perona Puro, Javier Estaca
+32;"""Se cree que el n£mero de posibles mol‚culas y materiales estables supera con creces el n£mero de  tomos en el universo conocido. Una tarea que los ordenadores cl sicos m s grandes imaginables no podr¡an resolver.""
+­Si estas frases te suenan a chino mandar¡n, o la computaci¢n cu ntica te suena a algo igual de complejo que mandar un cohete a la luna, esta sesi¢n es para ti!
+Veremos de una forma muy sencilla, qu‚ es, c¢mo funciona, para qu‚ sirve y sus casos de uso, ventajas, y otras curiosidades de la computaci¢n cu ntica con Azure Quantum, incluso haremos alg£n pinito en Q#.
+Al final todos seremos capaces de mandar nuestros cohetes a la luna, £nete a la exploraci¢n cu ntica y ay£danos a lograr el primer atasco lunar.
+";Paulo Dias, Anal¡a Mart¡n
+33;Descubre las capacidades clave en Azure de Microsoft Defender for DevOps y c¢mo se integra con las plataformas de Azure DevOps y GitHub para visualizer la postura de seguridad de nuestras aplicaciones y como crear pipelines utilizando el componente de analisis y escaneo de vulnerabilidades.;Santiago Macias Rodriguez
+34;"Si has trabajado con Azure OpenAI habr s acabado en la API reference de la compa¤¡a, pero ...
+
+¨Sab¡as que entre esa documentaci¢n, en los profundos recovecos se esconden herramientas y funcionalidades que salvan m s de una situaci¢n?
+
+En esta charla nos sumergiremos bajo el iceberg de las herramientas de OpenAI y plantearemos algunos escenarios donde estas herramientas ser n de gran utilidad.
+
+Dentro de estas herramientas encontramos:
+-  Function calling 
+- Assistants
+- Moderation
+- Text to speech / Speech to text
+- Tools: code interpreter, knowledge retrieval
+
+Durante la charla se plantear n escenarios con estas herramientas que mostrar n el potencial de las mismas.";Javier Chico, Urko Nieto Margalli
+35;"En esta charla, podr s introducirte sumergirte en el mundo de los microcontroladores y microprocesadores y entender los fundamentos para que puedas programarlos usando tu lenguaje favorito. C#
+
+Tambi‚n debatiremos sobre las ventajas y desventajas de utilizar lenguajes administrados en dispositivos electr¢nicos con pocos recursos. Para ello haremos un recorrido sobre todas las plataformas existentes, i veremos como cada una de ellas se ha especializado para cada uno de los escenarios posibles.";Pep Lluis
+36;Hoy en d¡a cada vez m s aplicaciones .Net, ya sean en su vertiente web o de servicio, acaban desplegadas en Kubernetes. En esta charla vamos a plantear desde 0 el proceso y las buenas pr cticas que hay que seguir para que las aplicaciones .Net y que no sean un quebradero de cabeza.;Jorge Turrado
+37;La cosa est  que arde en el mundo de la nube: m s grande, m s complejo y todo el mundo quiere un pedazo del pastel. En esta charla, te vamos a contar c¢mo el Copilot de Microsoft para Azure es la navaja suiza que no sab¡as que necesitabas. Imagina un cerebro gigante (pero amigable) que te ayuda a manejar tus cosas en Azure, desde encontrar trucos nuevos hasta hacer que todo funcione m s suave que nunca. Prep rate para subir de nivel tu juego en Azure y, ¨qui‚n sabe?, quiz s hasta te sobre tiempo para un caf‚ extra.;Alberto Diaz Martin
+38;En esta sesi¢n vamos a ver como podemos partiendo de pruebas de JMeter DSL ejecutar nuestras pruebas de carga en Azure Load Testing, automatizando su lanzamiento con GitHub Actions y obteniendo telemetr¡a mediante framework de Open Telemetry;Luis Fraile, Unai Zorrilla Castro
+39;El Low Code y el ProCode para las aplicaciones de negocio (Power Platform) son la base del actual ecosistema de m¢dulos CRM y ERP para Microsoft. La misma tecnolog¡a LowCode/ProCode es utilizada por miles de empresas en el mundo para crear automatizaci¢n de procesos a todos los niveles y os vengo a contar como se gestiona el CI/CD en cualquiera de estos casos. Veremos la planificaci¢n, el dise¤o seg£n la estrategia de despliegue, la automatizaci¢n de testing, el hands-on con las herramientas de Built y Git que tenemos para Pipelines y m s. ­El ciclo entero de tu soluci¢n Power Platform gobernado desde Azure!;Mar Llamb¡
+40;"Hoy en d¡a, hablar de gesti¢n de la insfraestructura en la nube viene de la mano de hablar de Infraestructura como c¢digo (IaC). Terraform es la herramienta m s popular de cara a aplicar esta pr ctica, pero no es la £nica y Pulumi se postula como una alternativa con un enfoque diferente, que se acerca mucho m s al mundo DEV, permiti‚ndonos utilizar lenguajes de programaci¢n que nos resultan m s cercanos para definir, testear, desplegar y administrar infraestructura en cualquier nube.
+
+En esta charla exploraremos c¢mo Pulumi nos puede ayudar a aplicar IaC y lo cercanos que pueden resultar aspectos como la colaboraci¢n, testing, refactoring y modularizaci¢n del c¢digo gracias al enfoque que nos proporciona esta herramienta.
+
+Veremos c¢digo utilizando el SDK de Pulumi en C# integrado con Azure DevOps para automatizar la gesti¢n de nuestra infraestrcutura en Azure con ejemplos que nos permitan trabajar con networking, AKS, App Services, Azure Monitoring, etc.";Modesto San Juan
+41;Cansado de que te digan de que CosmosDB es un servicio caro? Entiendes todas las posibilidades que tiene este servicio, que son las RU, que tipo de API tienes que usar, ... Aprende a como poder usar Cosmos en tu desarrollo y que se adecue a un precio correspondiente;Adrian Diaz Cervera, Robert Bermejo
