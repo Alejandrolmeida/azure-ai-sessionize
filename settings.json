@@ -10,9 +10,9 @@
         "pictures_path": "Data/Output/Images"
     },
     "metaprompt": {
-        "create_handle_table_path": "Data/Prompt/CreateHandleTable.txt",
-        "create_tweets_path": "Data/Prompt/CreateTweets.txt",
-        "create_schedule_tweets_path": "Data/Prompt/ScheduleTweets.txt",
-        "create_imagedescription_path": "Data/Prompt/CreateImageDescription.txt"
+        "create_handle_table_path": "Data/Prompt/CreateHandleTable.[es-es].txt",
+        "create_tweets_path": "Data/Prompt/CreateTweets.[es-es].txt",
+        "create_schedule_tweets_path": "Data/Prompt/ScheduleTweets.[es-es].txt",
+        "create_imagedescription_path": "Data/Prompt/CreateImageDescription.[es-es].txt"
     }
 }
