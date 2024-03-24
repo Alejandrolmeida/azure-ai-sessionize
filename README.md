@@ -22,7 +22,7 @@ az group create \
 --location eastus
 ```
 
-## Create a resource
+## Create Azure AI Services
 Use the az cognitiveservices account create command to create an Azure OpenAI resource in the resource group. In the following example, you create a resource named MyOpenAIResource in the OAIResourceGroup resource group. When you try the example, update the code to use your desired values for the resource group and resource name, along with your Azure subscription ID <subscriptionID>.
 
 ```shell
