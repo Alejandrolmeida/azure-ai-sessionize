@@ -8,7 +8,7 @@ There are over 40 sessions, for each of which I'll have to create a compelling, 
 And that's not all, because to do it properly, I'll have to design a coherent Twitter posting schedule, with spacing between each post, spread out over all the days leading up to the event date, etc. But when I saw the possibility of exporting the data from Sessionize into CSV tables, an idea struck me: 
 - What if I ask GPT to do the work for me?
 
-# Quick Start
+# Quick Start⚡
 
 ## Sign in to the Azure CLI
 [Sign in](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli) to the Azure CLI or select Open Cloudshell.
@@ -62,7 +62,33 @@ az cognitiveservices account deployment create \
 --sku-name "Standard"
 ```
 
+## Configurations 
+You need to rename the .env.example file to .env and fill in the values of the variables with your own values.
 
+```shell
+AZURE_OPENAI_API_KEY="<your-api-key>"
+AZURE_OPENAI_DEPLOYMENT="gpt-4"
+AZURE_OPENAI_ENDPOINT="https://<your-instance-name>.openai.azure.com/"
+AZURE_OPENAI_VERSION="2024-02-15-preview"
+```
+
+### Folders 
+Additionally, you can configure the file structure to your liking by modifying the paths in the settings.json file. Here is the current file path:
+
+- 📁 Data/
+    - 📂 Input/
+        - 📄 SessionsTable_01.csv
+        - 📄 SessionsTable_02.csv
+        - 📄 SpeakersTable.csv
+    - 📂 Output/
+        - 📄 Scheduletweets.csv
+        - 📄 SpeakersHandle.md
+        - 📄 Tweets.csv
+    - 📂 Prompt/
+        - 📄 CreateHandleTable.txt
+        - 📄 CreateImageDescription.txt
+        - 📄 CreateTweets.txt
+        - 📄 ScheduleTweets.txt
 
 ## Disclaimer
 The content of this repository is a contribution intended to showcase the capabilities of large language models (LLMs) when used as pieces of code in software solutions. 
