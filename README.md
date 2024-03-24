@@ -94,7 +94,14 @@ Additionally, you can configure the file structure to your liking by modifying t
 For a quick execution, you can try running the ***CreateTweets.py*** program directly from your .bash console, Python interpreter, or Visual Studio Code debugger.
 
 ```shell
-./CreateTweets.py
+$ ./CreateTweets.py 
+Creating Table with X (Twitter) Handles...done! 34.98826026916504 seconds
+Creating CSV table header for tweets...done! 0.00015735626220703125 seconds
+Processing records up to 20 and adding tweets to the CSV table...done! 78.54030728340149 seconds
+Processing records from 21 onwards and adding tweets to the CSV table...done! 46.74956011772156 seconds
+Scheduling tweets...done! 88.47330665588379 seconds
+Process completed in: 3 minutes 22 seconds
+
 ```
 
 ***Note:*** The script checks for the existence of output files, and if it detects that they exist, they are not regenerated. Therefore, if you want to create the files again (the results will be similar but not identical), you must delete ***SpeakersHandle.md***, ***Tweets.csv***, and ***Scheduletweets.csv***
