@@ -10,7 +10,7 @@ from PIL import Image
 
 def load_variables():
     script_dir = os.path.dirname(os.path.realpath(__file__))
-    path=os.path.join(os.curdir, script_dir + ".env")
+    path=os.path.join(os.curdir, script_dir + "/.env")
     load_dotenv(path)
 
 def generate_dalle3(client, prompt):
