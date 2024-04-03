@@ -2,3 +2,5 @@ requests
 python-dotenv
 Pillow
 openai
+tweepy 
+schedule
